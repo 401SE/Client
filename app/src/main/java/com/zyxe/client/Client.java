@@ -8,7 +8,6 @@ package com.zyxe.client;
 
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
@@ -17,12 +16,17 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
+
+
+/**
+ * The Client class is run from a remote (local) client that will
+ * connect via a socket to the SocketServer class.
+ */
 
 public class Client extends AppCompatActivity
 {
