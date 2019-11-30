@@ -78,10 +78,6 @@ public class Client extends AppCompatActivity implements AdapterView.OnItemSelec
                 if (btnConnect.getText().equals("Connect"))
                 {
                     tvMessages.setText("");
-                    //SERVER_IP = etIP.getText().toString().trim();
-//                    SERVER_IP = "10.0.0.227";
-//                    //SERVER_PORT = Integer.parseInt(etPort.getText().toString().trim());
-//                    SERVER_PORT = 7000;
                     btnConnect.setText("Disconnect");
                     Thread1 = new Thread(new Thread1());
                     Thread1.start();
