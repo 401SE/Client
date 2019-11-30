@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Client</string>
+
+    <string-array name="servers">
+        <item>Local OS</item>
+        <item>Local IOT</item>
+        <item>Remote OS</item>
+        <item>Remote IOT</item>
+    </string-array>
 </resources>
